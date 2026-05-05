@@ -30,6 +30,8 @@ Technologies Used
 3. Fill in the student details in the registration form.
 4. Click "Add Student" to save the record to the table.
 5. Use the "Edit" button to modify an existing entry or "Delete" to remove it.
+# Link to access my github 
+https://github.com/nishadsaurabh98375-hash/student-registration-system/commit/44eb7f4cfafe12190df02cf9dca1acfc4188025c
 
 
 
