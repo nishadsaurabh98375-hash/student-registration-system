@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration System to manage student records">
+     <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Student Registration System</h1>
+        <p>Easily register, view, edit, and delete student info</p>
+   </header>
+
+    <main class="container">
+ <!-- creating a form section-->
+    <section class="form-section">
+      <h2>Registration Form</h2>
+      <form id="registrationForm">
+          <div class="input-group">
+                <label for="studentName">Student Name</label>
+              <input type="text" id="studentName" placeholder="Enter name (letters only)" required>
+        </div>
+      <div class="input-group">
+            <label for="studentID">Student ID</label>
+            <input type="text" id="studentID" placeholder="Enter numeric ID" required>
+        </div>
+            <div class="input-group">
+        <label for="emailID">Email ID</label>
+        <input type="email" id="emailID" placeholder="example@mail.com" required>
+          </div>
+           <div class="input-group">
+       <label for="contactNo">Contact No.</label>
+                    <input type="tel" id="contactNo" placeholder="At least 10 digits" required>
+                </div>
+                <button type="submit" id="submitBtn">Add Student</button>
+            </form>
+        </section>
+  <!--  creating Display Section -->
+<section class="display-section">
+  <h2>Registered Students</h2>
+       <div id="tableWrapper" class="table-wrapper">
+         <table id="studentTable">
+          <thead>
+             <tr>
+         <th>Name</th>
+             <th>ID</th>
+       <th>Email</th>
+        <th>Contact</th>
+       <th>Actions</th>
+        </tr>
+           </thead>
+         <tbody id="studentData">
+          </tbody>
+   </table>
+   </div>
+ </section>
+ </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
